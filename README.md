@@ -7,3 +7,8 @@
 - Practiced Python functions
 - Created and read CSV data
 - Computed metrics from file-based data
+
+## Day 3
+- Pulled data from a public API and saved raw JSON
+- Parsed JSON using Python and extracted fields (name, country)
+- Computed basic counts from JSON data
