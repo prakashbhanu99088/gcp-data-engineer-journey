@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Olivia",
+        "last": "Mackay"
+      },
+      "location": {
+        "street": {
+          "number": 4719,
+          "name": "Dieppe Ave"
+        },
+        "city": "Lasalle",
+        "state": "Prince Edward Island",
+        "country": "Canada",
+        "postcode": "U4L 6B2",
+        "coordinates": {
+          "latitude": "-64.6138",
+          "longitude": "120.3487"
+        },
+        "timezone": {
+          "offset": "+3:30",
+          "description": "Tehran"
+        }
+      },
+      "email": "olivia.mackay@example.com",
+      "login": {
+        "uuid": "d929758b-404d-489d-b9ed-63c3494b943f",
+        "username": "smallkoala288",
+        "password": "undertak",
+        "salt": "dqZFJZBJ",
+        "md5": "53fe004bd39f073823a700e0067cbd04",
+        "sha1": "35b25b93c93019237dfe749a5825d03896607e25",
+        "sha256": "4a6254775641addff540c577a68ef31a0ee37289ac70a62692e3ebac6302cfa6"
+      },
+      "dob": {
+        "date": "1989-06-21T07:02:44.922Z",
+        "age": 36
+      },
+      "registered": {
+        "date": "2006-04-06T10:44:54.764Z",
+        "age": 19
+      },
+      "phone": "P27 P22-9290",
+      "cell": "O47 H16-4113",
+      "id": {
+        "name": "SIN",
+        "value": "616008017"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/28.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/28.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/28.jpg"
+      },
+      "nat": "CA"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Andre",
+        "last": "White"
+      },
+      "location": {
+        "street": {
+          "number": 5104,
+          "name": "James St"
+        },
+        "city": "Port Macquarie",
+        "state": "Queensland",
+        "country": "Australia",
+        "postcode": 2648,
+        "coordinates": {
+          "latitude": "-39.8157",
+          "longitude": "169.1262"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "andre.white@example.com",
+      "login": {
+        "uuid": "087b42a7-226e-4f5e-9837-9b56b0978d57",
+        "username": "ticklishsnake678",
+        "password": "coming",
+        "salt": "wOEAVbJ2",
+        "md5": "d12332d3db8c10f58dba572ae6ab3b9e",
+        "sha1": "6c70d473ea4d9f03b8621fe5e742f7da0e9fdffd",
+        "sha256": "c59d85f6c81143aa3d2e05276c259fe43a75c6e998df37f798ed008fbc9f6c4e"
+      },
+      "dob": {
+        "date": "1988-10-30T22:47:36.279Z",
+        "age": 37
+      },
+      "registered": {
+        "date": "2008-09-26T13:04:58.614Z",
+        "age": 17
+      },
+      "phone": "07-7034-9702",
+      "cell": "0482-521-823",
+      "id": {
+        "name": "TFN",
+        "value": "674666603"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/26.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/26.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/26.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Morgan",
+        "last": "Simon"
+      },
+      "location": {
+        "street": {
+          "number": 5935,
+          "name": "Rue de L'Abb\u00e9-Roger-Derry"
+        },
+        "city": "Saint-\u00c9tienne",
+        "state": "Bouches-du-Rh\u00f4ne",
+        "country": "France",
+        "postcode": 79091,
+        "coordinates": {
+          "latitude": "-83.7329",
+          "longitude": "36.1506"
+        },
+        "timezone": {
+          "offset": "-6:00",
+          "description": "Central Time (US & Canada), Mexico City"
+        }
+      },
+      "email": "morgan.simon@example.com",
+      "login": {
+        "uuid": "160c3827-83e3-4093-b687-e80b7a4ade45",
+        "username": "angrylion250",
+        "password": "sanford",
+        "salt": "DcF6aHFn",
+        "md5": "090c883e0bcb9ed6baf8f9dd9c7667e2",
+        "sha1": "b5ca5f0fd4a4e1a87b127af22d9bf6a1d8d0447f",
+        "sha256": "29b78f3f95581e01452e18929cf62da23a30e7e27a57ddcb72680f2ee45ca2d1"
+      },
+      "dob": {
+        "date": "1971-04-30T23:10:53.914Z",
+        "age": 54
+      },
+      "registered": {
+        "date": "2022-04-30T03:25:56.427Z",
+        "age": 3
+      },
+      "phone": "05-91-69-45-04",
+      "cell": "06-21-54-43-32",
+      "id": {
+        "name": "INSEE",
+        "value": "1710339827102 42"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/13.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/13.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/13.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Siiri",
+        "last": "Kinnunen"
+      },
+      "location": {
+        "street": {
+          "number": 2693,
+          "name": "Mechelininkatu"
+        },
+        "city": "Laihia",
+        "state": "Satakunta",
+        "country": "Finland",
+        "postcode": 45955,
+        "coordinates": {
+          "latitude": "72.5678",
+          "longitude": "130.9986"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "siiri.kinnunen@example.com",
+      "login": {
+        "uuid": "d28853f5-80aa-451f-a4d1-4618ca0213a7",
+        "username": "smallfish650",
+        "password": "ib6ub9",
+        "salt": "tSC7RbHR",
+        "md5": "a28c3efc74d5fc3044e2a399ac5c787b",
+        "sha1": "a8c159ee5b7b2fe8e05b346e803d4415a9041965",
+        "sha256": "b7e824dc67275f762c69f02bed4a7899275a8588573d2f7c78aa98cf5385fb4d"
+      },
+      "dob": {
+        "date": "1982-04-07T06:31:53.180Z",
+        "age": 43
+      },
+      "registered": {
+        "date": "2014-01-10T00:55:45.245Z",
+        "age": 11
+      },
+      "phone": "09-948-478",
+      "cell": "044-352-51-04",
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA032undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/42.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/42.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/42.jpg"
+      },
+      "nat": "FI"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Bilotur",
+        "last": "Griban"
+      },
+      "location": {
+        "street": {
+          "number": 5043,
+          "name": "Gryadkova"
+        },
+        "city": "Oleshki",
+        "state": "Volinska",
+        "country": "Ukraine",
+        "postcode": 14463,
+        "coordinates": {
+          "latitude": "78.0889",
+          "longitude": "-134.7878"
+        },
+        "timezone": {
+          "offset": "-12:00",
+          "description": "Eniwetok, Kwajalein"
+        }
+      },
+      "email": "bilotur.griban@example.com",
+      "login": {
+        "uuid": "899e64fe-1e24-4748-9be2-40deaa75b92a",
+        "username": "biggorilla890",
+        "password": "stoney",
+        "salt": "bpKj2LAz",
+        "md5": "222e5e3875ae0b8b33ff01523251cd8e",
+        "sha1": "0d1dcedc5c7fac8b43d759d36ca0e51f71797858",
+        "sha256": "7f285dce364348aeee6cbb5c6de7b10fa3b18fd59011878f59d6c10393cbfce5"
+      },
+      "dob": {
+        "date": "1994-08-26T20:13:36.713Z",
+        "age": 31
+      },
+      "registered": {
+        "date": "2019-05-05T18:53:46.839Z",
+        "age": 6
+      },
+      "phone": "(099) F47-9719",
+      "cell": "(066) L75-2614",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/48.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/48.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg"
+      },
+      "nat": "UA"
+    }
+  ],
+  "info": {
+    "seed": "b162194d1a0da5b0",
+    "results": 5,
+    "page": 1,
+    "version": "1.4"
+  }
+}
