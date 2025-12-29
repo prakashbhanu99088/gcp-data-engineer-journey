@@ -17,3 +17,9 @@
 - Converted raw JSON into a flat CSV table (JSON → CSV)
 - Designed a simple schema: first_name, last_name, country, email
 - Generated a structured dataset ready for loading into a database/BigQuery
+
+## Day 5
+- Started PostgreSQL using Docker
+- Created a staging table (users_staging)
+- Loaded CSV data into PostgreSQL using Python (psycopg2)
+- Verified loaded rows using SQL queries
