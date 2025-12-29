@@ -12,3 +12,8 @@
 - Pulled data from a public API and saved raw JSON
 - Parsed JSON using Python and extracted fields (name, country)
 - Computed basic counts from JSON data
+
+## Day 4
+- Converted raw JSON into a flat CSV table (JSON → CSV)
+- Designed a simple schema: first_name, last_name, country, email
+- Generated a structured dataset ready for loading into a database/BigQuery
