@@ -30,21 +30,21 @@
   
  -  Built dimension tables:
   
-  dim_date (generated calendar dates)
+ - dim_date (generated calendar dates)
   
-  dim_product (product master data)
+ - dim_product (product master data)
   
-  dim_customer (SCD Type 2 columns: effective_start/effective_end/is_current)
+-  dim_customer (SCD Type 2 columns: effective_start/effective_end/is_current)
   
-  Built fact table:
+  - Built fact table:
   
-  fact_orders at order-line grain
+ - fact_orders at order-line grain
   
-  Foreign keys to date/product/customer
+  - Foreign keys to date/product/customer
   
-  Loaded sample data into dims and facts
+ -  Loaded sample data into dims and facts
   
-  Verified with analytical joins (fact → dims)
+  - Verified with analytical joins (fact → dims)
 
 ## Day 7 — ETL/ELT Pipelines (Incremental + Idempotent)
 
