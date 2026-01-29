@@ -48,24 +48,24 @@
 
 ## Day 7 — ETL/ELT Pipelines (Incremental + Idempotent)
 
-Implemented SCD Type 2 update (CUST-001 Canada → France)
+- Implemented SCD Type 2 update (CUST-001 Canada → France)
 
-Verified customer history preserved and facts stay correct
+- Verified customer history preserved and facts stay correct
 
-Added pipeline state tracking:
+- Added pipeline state tracking:
 
-etl_watermarks table (pipeline_name, last_date_id)
+- etl_watermarks table (pipeline_name, last_date_id)
 
-Built incremental pipeline using staging:
+- Built incremental pipeline using staging:
 
-stg_orders for incoming daily orders
+- stg_orders for incoming daily orders
 
-Dedup strategy using ROW_NUMBER() and ingestion time
+- Dedup strategy using ROW_NUMBER() and ingestion time
 
-UPSERT strategy using ON CONFLICT DO UPDATE
+- UPSERT strategy using ON CONFLICT DO UPDATE
 
-Validated real scenarios:
+- Validated real scenarios:
 
-Late update: ORD-90003 quantity updated (3 → 5)
+- Late update: ORD-90003 quantity updated (3 → 5)
 
-Dedup: ORD-90006 keeps latest record only
+- Dedup: ORD-90006 keeps latest record only
