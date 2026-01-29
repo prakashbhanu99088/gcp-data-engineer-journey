@@ -69,3 +69,58 @@
 - Late update: ORD-90003 quantity updated (3 → 5)
 
 - Dedup: ORD-90006 keeps latest record only
+
+## Retail Analytics Warehouse — How Data Flows (Diagram)
+
+                (SOURCE)
+          API / Files / CSV / JSON
+                     |
+                     v
+            +------------------+
+            |   RAW / LANDING  |
+            | (optional layer) |
+            +------------------+
+                     |
+                     v
+            +------------------+
+            |   STAGING (stg)  |
+            | retail_dw.stg_*  |
+            | - stg_orders     |
+            | - stg_customer_updates
+            | - loaded_at      |
+            +------------------+
+                     |
+         clean / dedup / validate
+                     |
+                     v
+     +--------------------------------------+
+     |        DIMENSIONS (lookup tables)    |
+     |  retail_dw.dim_*                     |
+     |  - dim_date      (date_id=YYYYMMDD)  |
+     |  - dim_product   (product_sk)        |
+     |  - dim_customer  (customer_sk, SCD2) |
+     +--------------------------------------+
+                     |
+     join to get surrogate keys (SKs)
+                     |
+                     v
+     +--------------------------------------+
+     |            FACT TABLE (events)       |
+     |  retail_dw.fact_orders               |
+     |  Grain: 1 row per order line         |
+     |  PK: (order_id, order_line_nbr)      |
+     |  FK: date_id, product_sk, customer_sk|
+     |  Metrics: quantity, unit_price,      |
+     |           line_amount (generated)    |
+     +--------------------------------------+
+                     |
+          incremental loads + safe reruns
+                     |
+                     v
+     +--------------------------------------+
+     |        PIPELINE STATE (watermark)    |
+     |  retail_dw.etl_watermarks            |
+     |  - pipeline_name                     |
+     |  - last_date_id                      |
+     |  - updated_at                        |
+     +--------------------------------------+
