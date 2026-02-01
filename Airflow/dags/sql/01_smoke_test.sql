@@ -1,0 +1,1 @@
+Select 'connected_to_retail_dw' AS status, now() AS ts;
