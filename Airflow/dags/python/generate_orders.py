@@ -1,13 +1,14 @@
-from datetime import date
+from datetime import datetime
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-
+import logging
+log = logging.getLogger("airflow.task")
 def generate_orders(ds_nodash: str, **context):
     """
     ds_nodash comes from Airflow macro: YYYYMMDD (e.g., 20260202)
     This makes order_id unique per day -> safe daily schedule.
     """
     hook = PostgresHook(postgres_conn_id="retail_dw_pg")
-
+    order_date = datetime.strptime(ds_nodash, "%Y%m%d").date()
     # Unique order IDs per DAG run day
     order1 = f"ORD-{ds_nodash}-001"
     order2 = f"ORD-{ds_nodash}-002"
@@ -31,4 +32,4 @@ def generate_orders(ds_nodash: str, **context):
         commit_every=1000,
     )
 
-    print(f"Inserted {len(orders)} rows into retail_dw.stg_orders for ds={ds_nodash}")
+    log.info("Inserted %s rows into stg_orders for ds=%s", len(orders), ds_nodash)
